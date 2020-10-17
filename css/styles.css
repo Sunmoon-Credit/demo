@@ -1,0 +1,103 @@
+body{
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #007bff;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+p{
+  margin: 0;
+}
+
+.heading{
+  font-weight: 400;
+  text-align: center;
+  padding: 5%;
+}
+
+/* Header Section */
+
+#home{
+  /* background-color: rgba(255, 250, 187, 0.9); */
+  background-color: #000;
+  text-align: center;
+}
+
+.navbar-default{
+  transition: 1000ms ease;
+}
+.navbar-default.scrolled{
+  background-color: #000;
+  box-shadow: 0 5px 5px -5px #f00;
+}
+
+.container{
+  padding: 10% 10% 30%;
+  width: 100%;
+}
+
+.form-inline{
+  flex-grow: 1;
+}
+
+.form-control{
+  flex-grow: 1;
+}
+
+.big-search-bar-form{
+  margin-top: 30px;
+}
+
+/* Demo Section */
+#Demo{
+  background-color: #000;
+  text-align: left;
+  color: #fff;
+}
+
+.row{
+  margin: 0;
+}
+
+.row-company-img{
+  margin-top: 30px;
+}
+.carousel-item{
+  padding: 1% 15% 7%;
+}
+.company-default-description{
+  margin-top: 20px;
+}
+
+.company-img{
+  margin: 20px auto 10px;
+}
+
+/* Section Contact Me */
+
+.contact-form-item{
+  margin: 0;
+}
+
+/* Section Footer */
+#footer{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+}

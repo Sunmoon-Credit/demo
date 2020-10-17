@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- My script -->
+  <script src="js/main.js">
+
+  </script>
+</head>
+
+<body>
+  <section id="home">
+
+    <!-- Navigation Bar   -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="header" class="collapse navbar-collapse">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#Demo">Demo</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Default Prediction</h1>
+
+      <form class="form-inline big-search-bar-form" action="mailto:sunmoon.idegu@gmail.com" method="post">
+        <input class="form-control form-control-lg mr-2 big-search-bar" type="text" placeholder="Search for a US company..." aria-label="Search">
+        <button class="btn btn-outline-warning btn-lg big-search-bar-btn" type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="Demo">
+
+    <h2 class="heading">Demo</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+          <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-item active">
+          <div class="row row-company-info">
+            <h3 class="company-name">Valaris plc</h3>
+            <p class="company-description">Valaris plc is an offshore drilling contractor headquartered in London,
+              United Kingdom. It is the largest offshore drilling and well drilling company in the world, and owns
+              74 rigs, including 50 offshore jackup rigs, 16 drillships, and 8 semi-submersible platform drilling rigs.</p>
+
+            <div class="company-default-description">
+              <p>- Valaris plc filed for bankruptcy in August 2020.
+                <a href="https://www.wsj.com/articles/offshore-drilling-contractor-valaris-files-for-bankruptcy-in-the-u-s-11597872445">Check here.</a>
+              <br>
+              - Our system gives a signal in March 2020. Check below.</p>
+            </div>
+
+          </div>
+          <div class="row row-company-img">
+            <img class="company-img" src="images/Valaris_plc_2020-05-29.png" alt="">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row row-company-info">
+            <h3 class="company-name">Noble Corp plc</h3>
+            <p class="company-description">Noble Corporation plc is an offshore drilling contractor organized in London,
+              United Kingdom. Its affiliate, Noble Corporation, is organized in the Cayman Islands.
+              It is the corporate successor of Noble Drilling Corporation.The company operates 25 drilling rigs
+              including 8 drillships, 4 semi-submersible platforms, and 13 jackup rigs.</p>
+
+            <div class="company-default-description">
+              <p>- Noble Corp plc filed for bankruptcy on July 31, 2020.
+                <a href="https://www.bizjournals.com/houston/news/2020/07/31/noble-corp-files-massive-bankruptcy-in-houston.html">Check here.</a>
+              <br>
+              - Our system gives a signal in March 2020. Check below.</p>
+            </div>
+
+          </div>
+          <div class="row row-company-img">
+            <img class="company-img" src="images/Noble_Corp_plc_2020-05-29.png" alt="">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row row-company-info">
+            <h3 class="company-name">Oasis Petroleum</h3>
+            <p class="company-description">Oasis Petroleum is a company engaged in hydrocarbon exploration
+              and hydraulic fracturing in the Williston Basin as well as in the Delaware Basin of the Permian
+              Basin in West Texas. It is organized in Delaware and headquartered in Houston, Texas, with an
+              office in Williston, North Dakota.</p>
+
+            <div class="company-default-description">
+              <p>- Oasis Petroleum filed for bankruptcy on September 30, 2020.
+                <a href="https://uk.reuters.com/article/us-oasis-petr-bankruptcy/oasis-petroleum-files-for-bankruptcy-as-shale-slump-drags-on-idUKKBN26L0QA">Check here.</a>
+              <br>
+              - Our system gives a signal in March 2020. Check below.</p>
+            </div>
+
+          </div>
+          <div class="row row-company-img">
+            <img class="company-img" src="images/Oasis_Petroleum_Inc_2020-05-29.png" alt="">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <h2 class="heading">Contact Us</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Please feel free to contact us if you have any questions about this demo.
+          Any comments are welcome. Also, we are looking for people to beautify this website,
+          let us know if you are interested!
+          Here, this demo system is going to bring a totally new view of credit analysis.
+        That is a guarantee.</p>
+      </div>
+      <div class="col-lg-6">
+        <form action="mailto:sunmoon.idegu@gmail.com" method="post">
+          <input class="form-control form-control-lg contact-form-item" type="text" name="yourName" placeholder="You Name" required><br>
+          <input class="form-control form-control-lg contact-form-item" type="email" name="yourEmail" placeholder="Your Email" required><br>
+          <textarea class="form-control form-control-lg contact-form-item" rows=10 cols=30 name="yourMessage" placeholder="Message" required></textarea>
+          <button type="submit" class="btn btn-primary btn-lg mt-4 mb-4 contact-form-item">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <p>Copyright © Sunmoon Credit</p>
+  </section>
+
+
+</body>
+
+</html>
